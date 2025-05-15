@@ -7,9 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Welcome</p>
+
+    <h3>Pagina de Laravel</h3>
+
+    <livewire:counter/>
+
+    {{-- Ou --}}
+
     @livewire('counter')
-
-
 </body>
 </html>
