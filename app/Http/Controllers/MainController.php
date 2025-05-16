@@ -9,7 +9,11 @@ class MainController extends Controller
 {
     public function home(): View
     {
-        return view('home');
+        $data = [
+            'value4' => 'Valor de variável definida no controller'
+        ];
+
+        return view('home')->with($data);
     }
     
     

@@ -3,19 +3,7 @@
 
     <hr>
 
-    @livewire('counter')
-    {{-- --}}
-    {{-- <livewire:counter --}}
-    <hr>
-
-    <p>INLINE COMPONENT</p>
-
-    @php
-        $php_value = "Valor em PHP"
-    @endphp
-
-    <livewire:inline-component value="Valor direto" :php_value="$php_value" />
-
+   <livewire:properties-component value3="Valor literal" :value4="$value4" />
     
 
 </x-layout.main-layout>
