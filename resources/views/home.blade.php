@@ -3,7 +3,7 @@
 
     <hr>
 
-   <livewire:properties-component value3="Valor literal" :value4="$value4" />
+    @livewire('form-component')
     
 
 </x-layout.main-layout>
